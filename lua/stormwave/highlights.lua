@@ -1120,7 +1120,7 @@ function M.apply(c)
   HI(0, "NeogitHunkHeaderCursor", { bg = neutral_1, fg = accent_gold, bold = true })
   HI(0, "NeogitHunkHeaderHighlight", { bg = surface_main, fg = accent_gold, bold = true })
 
-  HI(0, "CursorLine", { bg = surface_main })
+  HI(0, "CursorLine", { bg = neutral_2 })
   HI(0, "CursorLineNr", { bg = surface_main, fg = text_muted })
   HI(0, "CursorLineSign", { bg = surface_main })
 end
